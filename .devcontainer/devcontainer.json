@@ -1,0 +1,19 @@
+{
+  "name": "Deno & PostgreSQL",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "app",
+  "workspaceFolder": "/workspace",
+
+  "customizations": {
+    "settings": {
+      "deno.enable": true,
+      "deno.lint": true,
+      "editor.defaultFormatter": "denoland.vscode-deno"
+    },
+    "vscode": {
+      "extensions": ["denoland.vscode-deno", "dbaeumer.vscode-eslint"]
+    }
+  },
+
+  "remoteUser": "vscode"
+}
