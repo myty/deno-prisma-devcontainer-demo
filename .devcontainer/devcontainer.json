@@ -6,12 +6,17 @@
   "postStartCommand": "node -v",
 
   "customizations": {
-    "settings": {
-      "deno.enable": true,
-      "deno.lint": true,
-      "editor.defaultFormatter": "denoland.vscode-deno"
-    },
     "vscode": {
+      "settings": {
+        "deno.enable": true,
+        "deno.lint": true,
+        "deno.codeLens.implementations": true,
+        "deno.codeLens.references": true,
+        "deno.suggest.autoImports": true,
+        "deno.suggest.paths": true,
+        "deno.suggest.names": true,
+        "editor.defaultFormatter": "denoland.vscode-deno"
+      },
       "extensions": [
         "denoland.vscode-deno",
         "dbaeumer.vscode-eslint",
