@@ -3,6 +3,7 @@
   "dockerComposeFile": "docker-compose.yml",
   "service": "app",
   "workspaceFolder": "/workspace",
+  "postStartCommand": "node -v",
 
   "customizations": {
     "settings": {
@@ -14,7 +15,11 @@
       "extensions": [
         "denoland.vscode-deno",
         "dbaeumer.vscode-eslint",
-        "Prisma.prisma"
+        "Prisma.prisma",
+        "codezombiech.gitignore",
+        "hashhar.gitattributes",
+        "mhutchie.git-graph",
+        "rbbit.typescript-hero"
       ]
     }
   },
