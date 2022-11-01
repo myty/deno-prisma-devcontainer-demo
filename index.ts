@@ -1,5 +1,7 @@
 import { serve } from "https://deno.land/std@0.140.0/http/server.ts";
-import { PrismaClient } from './generated/client/deno/edge.ts'
+
+// @deno-types="./generated/client/index.d.ts"
+import { PrismaClient } from './generated/client/index.js'
 
 const prisma = new PrismaClient()
 
